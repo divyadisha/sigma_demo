@@ -1,0 +1,74 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "15917b6d-a231-4269-a636-381de8c668fb": {
+        "id": "15917b6d-a231-4269-a636-381de8c668fb",
+        "parent": null,
+        "name": "sigma_demo.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigma_demo.py",
+        "cursor": {
+          "lineNumber": 11,
+          "column": 31
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "read_file",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [
+            "arn:aws:lambda:us-east-1:770693421928:layer:Klayers-python38-pandas:32"
+          ],
+          "name": "sigmademo"
+        },
+        "triggers": [],
+        "lastUpdated": 1620824022715
+      }
+    },
+    "openFiles": [
+      "15917b6d-a231-4269-a636-381de8c668fb"
+    ],
+    "currentFileId": "15917b6d-a231-4269-a636-381de8c668fb",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.0",
+    "projectName": "sigma_demo",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1620824129568
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigma_demo",
+      "url": "https://github.com/divyadisha/sigma_demo"
+    }
+  }
+}
